@@ -13,6 +13,7 @@ frontend:
     build:
       commands:
         - yarn run build
+        - npm start
   artifacts:
     baseDirectory: build
     files:
